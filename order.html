@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DVL Delivers</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <nav class="orange darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">DVL Delivers</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="order.html">Order Delivery</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="order.html">Order Delivery</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Main Section -->
+  <div class="container">
+    <div class="row">
+
+        <!-- Menu -->
+        <div class="col s12 m7">
+          <h4>Menu</h4>
+          <div class="row">
+
+            <div class="col s12 m6">
+              <div class="card small">
+                <div class="card-image">
+                  <img src="img/burger.jpg">
+                  <!-- <span class="card-title">Card Title</span> -->
+                </div>
+                <div class="card-content">
+                  <p>Sultan Burger with Cheese</p>
+                  <p>$8.99</p>
+                </div>
+                <div class="card-action">
+                  <a class="indigo-text text-accent-2" href="#">ADD TO ORDER</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card small">
+                <div class="card-image">
+                  <img src="img/pizza.jpg">
+                  <!-- <span class="card-title">Card Title</span> -->
+                </div>
+                <div class="card-content">
+                  <p>Pharaoh Arugula Pie</p>
+                  <p>$11.99</p>
+                </div>
+                <div class="card-action">
+                  <a class="indigo-text text-accent-2" href="#">ADD TO ORDER</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card small">
+                <div class="card-image">
+                  <img src="img/ribs.jpg">
+                  <!-- <span class="card-title">Card Title</span> -->
+                </div>
+                <div class="card-content">
+                  <p>King Smoky Ribs</p>
+                  <p>$14.99</p>
+                </div>
+                <div class="card-action">
+                  <a class="indigo-text text-accent-2" href="#">ADD TO ORDER</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card small">
+                <div class="card-image">
+                  <img src="img/ice_cream.jpg">
+                  <!-- <span class="card-title">Card Title</span> -->
+                </div>
+                <div class="card-content">
+                  <p>Emperor Ice Cream Sandwich</p>
+                  <p>$7.99</p>
+                </div>
+                <div class="card-action">
+                  <a class="indigo-text text-accent-2" href="#">ADD TO ORDER</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Order -->
+        <div class="col s12 m5">
+          <h4>Order</h4>
+          <div class="row">
+            <!-- Updating Table -->
+            <table class ="col s12 striped">
+              <thead>
+                <tr>
+                  <th data-field="name">Item Name</th>
+                  <th data-field="price">Item Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Sultan Burger with Cheese</td>
+                  <td>$8.99</td>
+                </tr>
+                <tr>
+                  <td>Pharaoh Arugula Pie</td>
+                  <td>$11.99</td>
+                </tr>
+                <tr>
+                  <td>King Smoky Ribs</td>
+                  <td>$14.99</td>
+                </tr>
+                <tr>
+                  <td>Emperor Ice Cream Sandwich</td>
+                  <td>$7.99</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Contact Info Form -->
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_name" type="text" class="validate">
+                    <label for="icon_name">Name</label>
+                  </div>
+
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                  </div>
+
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">business</i>
+                    <input id="icon_address" type="text" class="validate">
+                    <label for="icon_address">Address</label>
+                  </div>
+
+                  <div class="input-field col s12">
+                    <div class="row center">
+                      <button class="btn waves-effect waves-light indigo accent-2" type="submit" name="action">PLACE ORDER<i class="material-icons right">send</i></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m8">
+          <h5 class="white-text">DVL Delivers</h5>
+          <p class="grey-text text-lighten-4">Fine Dining, Delivered.</p>
+
+
+        </div>
+        <!-- <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+        <div class="col s12 m4">
+          <!-- <h5 class="white-text">Connect</h5> -->
+          <ul>
+            <li><a class="white-text" href="index.html">Home</a></li>
+            <li><a class="white-text" href="order.html">Order Delivery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright orange darken-3">
+      <div class="container">&#169; 2016 DVL Delivers</div>
+    </div>
+  </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
