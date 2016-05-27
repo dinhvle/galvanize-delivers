@@ -14,7 +14,7 @@
 </head>
 <body>
   <nav class="orange darken-3" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">DVL Delivers</a>
+    <div class="nav-wrapper"><a id="logo-container" href="index.html" class="brand-logo">DVL Delivers</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="order.html">Order Delivery</a></li>
       </ul>
@@ -110,28 +110,44 @@
               <thead>
                 <tr>
                   <th data-field="name">Item Name</th>
-                  <th data-field="price">Item Price</th>
+                  <th class="right-align" data-field="price">Item Price</th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr>
                   <td>Sultan Burger with Cheese</td>
-                  <td>$8.99</td>
+                  <td class="right-align">$8.99</td>
                 </tr>
                 <tr>
                   <td>Pharaoh Arugula Pie</td>
-                  <td>$11.99</td>
+                  <td class="right-align">$11.99</td>
                 </tr>
                 <tr>
                   <td>King Smoky Ribs</td>
-                  <td>$14.99</td>
+                  <td class="right-align">$14.99</td>
                 </tr>
                 <tr>
                   <td>Emperor Ice Cream Sandwich</td>
-                  <td>$7.99</td>
+                  <td class="right-align">$7.99</td>
                 </tr>
               </tbody>
+
+              <tfoot>
+                <tr>
+                  <td class="right-align">Subtotal</td>
+                  <td class="right-align" id="subtotal"></td>
+                </tr>
+                <tr>
+                  <td class="right-align">Tax</td>
+                  <td class="right-align" id="tax"></td>
+                </tr>
+                <tr>
+                  <td class="right-align">Total</td>
+                  <td class="right-align" id="total"></td>
+                </tr>
+              </tfoot>
+
             </table>
 
             <!-- Contact Info Form -->
@@ -158,9 +174,10 @@
 
                   <div class="input-field col s12">
                     <div class="row center">
-                      <button class="btn waves-effect waves-light indigo accent-2" type="submit" name="action">PLACE ORDER<i class="material-icons right">send</i></button>
+                      <button class="btn waves-effect waves-light indigo accent-2" type="submit" name="action">PLACE ORDER</button>
                     </div>
                   </div>
+
                 </div>
               </form>
             </div>
@@ -180,17 +197,7 @@
 
 
         </div>
-        <!-- <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div> -->
         <div class="col s12 m4">
-          <!-- <h5 class="white-text">Connect</h5> -->
           <ul>
             <li><a class="white-text" href="index.html">Home</a></li>
             <li><a class="white-text" href="order.html">Order Delivery</a></li>

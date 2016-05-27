@@ -6,3 +6,26 @@
 }
 
 /* Form Label */
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #536dfe;
+}
+
+.input-field input[type=tel]:focus + label {
+  color: #536dfe;
+}
+
+/* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #536dfe;
+ }
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #536dfe;
+ }
+
+ .input-field input[type=tel]:focus {
+   border-bottom: 1px solid #536dfe;
+ }
